@@ -1,13 +1,20 @@
 import { profile } from '../data/profile.js'
 
-export default function Avatar({ className = '' }) {
+export default function Avatar({ className = '', priority = false }) {
   if (profile.photo) {
     return (
-      <img
-        src={profile.photo}
-        alt={profile.name}
-        className={`object-cover ${className}`}
-      />
+      <picture>
+        <source srcSet={profile.photo.replace(/\.\w+$/, '.webp')} type="image/webp" />
+        <img
+          src={profile.photo}
+          alt={`Portrait of ${profile.name}`}
+          width="1008"
+          height="1478"
+          loading={priority ? 'eager' : 'lazy'}
+          fetchPriority={priority ? 'high' : 'auto'}
+          className={`block object-cover object-top ${className}`}
+        />
+      </picture>
     )
   }
   return (

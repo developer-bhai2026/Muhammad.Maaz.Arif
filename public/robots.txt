@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dr-muhammad-maaz-arif.netlify.app/sitemap.xml

@@ -9,7 +9,7 @@ export const profile = {
   title: 'Public Health Specialist · Medical Educator · Researcher',
   tagline:
     'Medical doctor and public health educator working across community, environmental and occupational health — through teaching, research and consultancy.',
-  photo: '', // e.g. '/images/profile.jpg' (put the file in /public/images)
+  photo: '/images/profile.jpg', // a .webp with the same name is served to browsers that support it
   location: 'Lahore, Pakistan',
   address: '69-II, Block-C, Model Town, Lahore',
   email: 'maazarifbutt@gmail.com',

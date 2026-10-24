@@ -41,10 +41,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="animate-fade-up mx-auto w-full max-w-sm [animation-delay:150ms]">
+          <div className="animate-fade-up mx-auto w-full max-w-sm sm:max-w-md md:ml-auto md:mr-0 [animation-delay:150ms]">
             <div className="relative">
               <div className="absolute -inset-3 rotate-3 rounded-3xl bg-gradient-to-br from-accent to-brand-600 opacity-80" />
-              <Avatar className="relative aspect-[4/5] w-full rounded-3xl shadow-xl" />
+              <Avatar priority className="relative aspect-[4/5] w-full rounded-3xl shadow-2xl ring-4 ring-white" />
+              <div className="absolute -bottom-5 -left-5 rounded-2xl bg-white px-5 py-3 shadow-lg ring-1 ring-slate-200">
+                <p className="font-serif text-2xl font-bold text-brand-800">50+</p>
+                <p className="text-xs font-medium text-slate-500">Published Articles</p>
+              </div>
             </div>
           </div>
         </div>
