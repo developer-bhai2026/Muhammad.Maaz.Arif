@@ -19,7 +19,7 @@ export default function About() {
         <div>
           <Avatar className="aspect-[4/5] w-full rounded-2xl shadow-lg" />
           <div className="card mt-6 space-y-2 p-5 text-sm">
-            <p><span className="font-semibold text-slate-900">Location:</span> {profile.location}</p>
+            <p><span className="font-semibold text-slate-900">Location:</span> {profile.address}</p>
             <p><span className="font-semibold text-slate-900">Email:</span> {profile.email}</p>
             <p><span className="font-semibold text-slate-900">ORCID:</span> {profile.orcid}</p>
             <p><span className="font-semibold text-slate-900">WoS Researcher ID:</span> {profile.wosId}</p>

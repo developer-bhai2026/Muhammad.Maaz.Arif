@@ -8,8 +8,8 @@ export default function Avatar({ className = '', priority = false }) {
         <img
           src={profile.photo}
           alt={`Portrait of ${profile.name}`}
-          width="1008"
-          height="1478"
+          width="1065"
+          height="1476"
           loading={priority ? 'eager' : 'lazy'}
           fetchPriority={priority ? 'high' : 'auto'}
           className={`block object-cover object-top ${className}`}

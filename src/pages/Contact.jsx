@@ -73,7 +73,7 @@ export default function Contact() {
   const info = [
     { Icon: Mail, label: 'Email', value: profile.email, href: `mailto:${profile.email}` },
     { Icon: Phone, label: 'Phone', value: profile.phone, href: `tel:${profile.phone.replace(/\s/g, '')}` },
-    { Icon: MapPin, label: 'Work Address', value: profile.address },
+    { Icon: MapPin, label: 'Location', value: profile.address },
     { Icon: BadgeCheck, label: 'ORCID', value: profile.orcid, href: profile.socials.orcid },
   ]
 

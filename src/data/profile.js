@@ -11,7 +11,7 @@ export const profile = {
     'Medical doctor and public health educator working across community, environmental and occupational health — through teaching, research and consultancy.',
   photo: '/images/profile.jpg', // a .webp with the same name is served to browsers that support it
   location: 'Lahore, Pakistan',
-  address: '69-II, Block-C, Model Town, Lahore',
+  address: 'Model Town, Lahore',
   email: 'maazarifbutt@gmail.com',
   phone: '+92 322 4509884',
   orcid: '0000-0003-0834-7773',
